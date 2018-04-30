@@ -1,6 +1,5 @@
 import mayflower.*;
 
-import java.security.Key;
 import java.util.*;
 
 public class PlayerActor extends Actor
