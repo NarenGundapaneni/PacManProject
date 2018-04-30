@@ -76,7 +76,7 @@ public class StageOne extends World
         {
             if(a.getPlayerType() == player)
             {
-                //a.move(direction);
+                a.move(direction);
             }
 
         }

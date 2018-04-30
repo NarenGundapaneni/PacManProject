@@ -68,27 +68,48 @@ public class PlayerActor extends Actor
         return playerType;
     }
 
-    //cockblock does not run
     public boolean isBlocked(String direction)
     {
         int xPos = getX();
         int yPos = getY();
 
-
-
-        if(direction.equals("UP"))
-            if(getOneObjectAtOffset(0, -11, Block.class) != null)
+        if("UP".equals(direction))
+        {
+            setLocation(xPos, yPos-1);
+            List<Block> blocks = getIntersectingObjects(Block.class);
+            if(blocks.size() != 0) {
+                setLocation(xPos, yPos);
                 return true;
-            else if(direction.equals("DOWN"))
-                if(getOneObjectAtOffset(0, 11, Block.class) != null)
-                    return true;
-        if(direction.equals("LEFT"))
-            if(getOneObjectAtOffset(-11, 0, Block.class) != null)
+            }
+        }
+        else if("DOWN".equals(direction))
+        {
+            //cockblocked
+            setLocation(xPos, yPos+1);
+            List<Block> blocks = getIntersectingObjects(Block.class);
+            if(blocks.size() != 0) {
+                setLocation(xPos, yPos);
                 return true;
-            else
-            if(getOneObjectAtOffset(11, 0, Block.class) != null)
+            }
+        }
+        else if("LEFT".equals(direction))
+        {
+            setLocation(xPos-1, yPos);
+            List<Block> blocks = getIntersectingObjects(Block.class);
+            if(blocks.size() != 0) {
+                setLocation(xPos, yPos);
                 return true;
-
+            }
+        }
+        else
+        {
+            setLocation(xPos+1, yPos);
+            List<Block> blocks = getIntersectingObjects(Block.class);
+            if(blocks.size() != 0) {
+                setLocation(xPos, yPos);
+                return true;
+            }
+        }
         return false;
     }
 }
