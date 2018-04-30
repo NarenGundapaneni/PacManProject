@@ -30,8 +30,13 @@
         <entry file="file://$PROJECT_DIR$/src/StageOne.java">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="2575">
               <caret line="103" column="1" lean-forward="false" selection-start-line="103" selection-start-column="1" selection-end-line="103" selection-end-column="1" />
+=======
+            <state relative-caret-position="1343">
+              <caret line="79" column="13" lean-forward="true" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+>>>>>>> 17ccca0f8b042da6dc550df0fe0377ad7fad9c00
 =======
             <state relative-caret-position="1343">
               <caret line="79" column="13" lean-forward="true" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
@@ -50,6 +55,7 @@
         </entry>
       </file>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <file leaf-file-name="ClientRunner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ClientRunner.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -63,6 +69,8 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> 17ccca0f8b042da6dc550df0fe0377ad7fad9c00
 =======
 >>>>>>> 17ccca0f8b042da6dc550df0fe0377ad7fad9c00
       <file leaf-file-name="PacMan.java" pinned="false" current-in-tab="false">
@@ -99,6 +107,7 @@
       <file leaf-file-name="Ghost.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Ghost.java">
 <<<<<<< HEAD
+<<<<<<< HEAD
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1600">
               <caret line="79" column="2" lean-forward="false" selection-start-line="79" selection-start-column="2" selection-end-line="79" selection-end-column="2" />
@@ -129,10 +138,16 @@
                 <element signature="e#136#137#0" expanded="true" />
 =======
           <provider selected="true" editor-type-id="text-editor">
+=======
+          <provider selected="true" editor-type-id="text-editor">
+>>>>>>> 17ccca0f8b042da6dc550df0fe0377ad7fad9c00
             <state relative-caret-position="1343">
               <caret line="79" column="2" lean-forward="false" selection-start-line="79" selection-start-column="2" selection-end-line="79" selection-end-column="2" />
               <folding>
                 <element signature="e#0#1522#0" expanded="true" />
+<<<<<<< HEAD
+>>>>>>> 17ccca0f8b042da6dc550df0fe0377ad7fad9c00
+=======
 >>>>>>> 17ccca0f8b042da6dc550df0fe0377ad7fad9c00
               </folding>
             </state>
@@ -143,8 +158,13 @@
         <entry file="file://$PROJECT_DIR$/src/PlayerActor.java">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="191">
               <caret line="29" column="31" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+=======
+            <state relative-caret-position="442">
+              <caret line="53" column="35" lean-forward="true" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
+>>>>>>> 17ccca0f8b042da6dc550df0fe0377ad7fad9c00
 =======
             <state relative-caret-position="442">
               <caret line="53" column="35" lean-forward="true" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
@@ -483,7 +503,11 @@
   </component>
   <component name="ToolWindowManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <frame x="-11" y="-11" width="1942" height="1046" extended-state="7" />
+=======
+    <frame x="362" y="14" width="1398" height="984" extended-state="0" />
+>>>>>>> 17ccca0f8b042da6dc550df0fe0377ad7fad9c00
 =======
     <frame x="362" y="14" width="1398" height="984" extended-state="0" />
 >>>>>>> 17ccca0f8b042da6dc550df0fe0377ad7fad9c00
@@ -503,7 +527,11 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14905934" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 17ccca0f8b042da6dc550df0fe0377ad7fad9c00
 =======
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14905934" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
 >>>>>>> 17ccca0f8b042da6dc550df0fe0377ad7fad9c00
@@ -937,6 +965,7 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/Ghost.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1600">
@@ -957,6 +986,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 17ccca0f8b042da6dc550df0fe0377ad7fad9c00
 =======
 >>>>>>> 17ccca0f8b042da6dc550df0fe0377ad7fad9c00
     <entry file="file://$PROJECT_DIR$/src/PacMan.java">
@@ -988,6 +1019,7 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/StageOne.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2575">
@@ -1004,6 +1036,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 17ccca0f8b042da6dc550df0fe0377ad7fad9c00
 =======
 >>>>>>> 17ccca0f8b042da6dc550df0fe0377ad7fad9c00
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/lang/ClassLoader.java" />
@@ -1023,8 +1057,13 @@
     <entry file="file://$PROJECT_DIR$/src/PacManServer.java">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="191">
           <caret line="29" column="31" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+=======
+        <state relative-caret-position="255">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+>>>>>>> 17ccca0f8b042da6dc550df0fe0377ad7fad9c00
 =======
         <state relative-caret-position="255">
           <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
@@ -1038,11 +1077,32 @@
     <entry file="file://$PROJECT_DIR$/src/StageOne.java">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="225">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
 =======
         <state relative-caret-position="1343">
           <caret line="79" column="13" lean-forward="true" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+=======
+        <state relative-caret-position="1343">
+          <caret line="79" column="13" lean-forward="true" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3508#3509#0" expanded="true" />
+            <element signature="e#3534#3535#0" expanded="true" />
+            <element signature="e#3589#3590#0" expanded="true" />
+            <element signature="e#3621#3622#0" expanded="true" />
+            <element signature="e#3665#3666#0" expanded="true" />
+            <element signature="e#3697#3698#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FileChanger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+>>>>>>> 17ccca0f8b042da6dc550df0fe0377ad7fad9c00
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3508#3509#0" expanded="true" />
@@ -1069,11 +1129,12 @@
     <entry file="file://$PROJECT_DIR$/src/GhostPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/Block.java">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
@@ -1087,6 +1148,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 17ccca0f8b042da6dc550df0fe0377ad7fad9c00
     <entry file="file://$PROJECT_DIR$/src/Ghost.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1343">
