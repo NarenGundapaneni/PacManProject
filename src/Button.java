@@ -4,23 +4,24 @@ import java.awt.*;
 
 public class Button extends Actor
 {
-    private Image regular;
-    private Image hovered;
-    private Image clicked;
+
+    private MayflowerImage regular;
+    private MayflowerImage hovered;
+    private MayflowerImage clicked;
     private MayflowerSound clickSound;
     private World newWorld;
     private boolean wasHovered;
     public Button(String path, String hoveredPath, String clickedPath, 
-    String clickSnd, World worldSet, int xsize, int ysize)
+    String clickSnd, World worldSet, int xSize, int ySize)
     {
-        regular = new Image(path);
-        hovered = new Image(hoveredPath);
-        regular.resize(xsize,ysize);
-        hovered.resize(xsize,ysize);
+        regular = new MayflowerImage(path);
+        hovered = new MayflowerImage(hoveredPath);
+        regular.scale(xSize,ySize);
+        hovered.scale(xSize,ySize);
         if(clickedPath != null)
         {
-            clicked =
-            clicked.resize(xsize,ysize);
+            //clicked = new MayflowerImage();
+            clicked.scale(xSize,ySize);
         }
         if(clickSnd!=null)clickSound = new MayflowerSound(clickSnd);
         newWorld = worldSet;
@@ -39,12 +40,20 @@ public class Button extends Actor
             wasHovered = false;
         }
 
-        if(isClicked())
+        /* i don't have the documentation on me at the moment,
+            but there is something wrong with isClicked
+
+        if(Mayflower.isClicked())
         {
-            if(clicked!=null)setPicture(clicked);
-            if(clickSound!=null)clickSound.play();
-            if(newWorld!=null)getMayflower().setStage(newWorld);
+            if(clicked!=null)
+                setImage(clicked);
+            if(clickSound!=null)
+                clickSound.play();
+            if(newWorld!=null)
+                Mayflower.setWorld(newWorld);
         }
+
+        */
     }
     public boolean isHovered() //checks if the mouse is over the button
     {
@@ -53,10 +62,13 @@ public class Button extends Actor
             x = Mayflower.getMouseInfo().getX(); //mouse's x coordinate
             y = Mayflower.getMouseInfo().getY(); //mouse's y coordinate
         }
+        /* i dont know what to use instead of isTouching
         if(isTouching(x,y))
             return true;
+        */
         return false;
     }
+
 
 }
 
