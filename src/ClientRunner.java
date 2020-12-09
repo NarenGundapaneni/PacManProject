@@ -1,10 +1,8 @@
-import mayflower.*;
-
-public class ClientRunner
-{
-    public static void main(String[] args)
-    {
-        new PacManClient();
+public class ClientRunner {
+    public ClientRunner() {
     }
 
+    public static void main(String[] args) {
+        new PacManClient();
+    }
 }

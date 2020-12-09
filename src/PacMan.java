@@ -1,27 +1,16 @@
-import mayflower.*;
 
-public class PacMan
-{
+public class PacMan {
     private int pacLives;
     private int pacScore;
 
-
-    public PacMan()
-    {
-
+    public PacMan() {
     }
 
-    public void movePlayer(PlayerType player, String direction)
-    {
-
+    public void movePlayer(PlayerType player, String direction) {
     }
 
-    public boolean isGameOver()
-    {
-        if(pacLives < 0)
-            return true;
-        else
-            return false;
+    public boolean isGameOver() {
+        return this.pacLives < 0;
     }
 
     public void setPacLives(int pacLives) {
@@ -33,10 +22,10 @@ public class PacMan
     }
 
     public int getPacLives() {
-        return pacLives;
+        return this.pacLives;
     }
 
     public int getPacScore() {
-        return pacScore;
+        return this.pacScore;
     }
 }

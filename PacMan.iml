@@ -8,5 +8,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="mayflower2.13" level="project" />
+    <orderEntry type="library" name="mayflower2.131" level="project" />
   </component>
 </module>

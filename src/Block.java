@@ -1,13 +1,17 @@
-import mayflower.*;
-public class Block extends Actor
-{
+import mayflower.Actor;
+
+public class Block extends Actor {
     private int type;
-    public Block(int t)
-    {
-        type = t;
-        setImage("img/block" + type + ".png");
+
+    public Block(int t) {
+        this.type = t;
+        this.setImage("img/block" + this.type + ".jpg");
     }
-    public void act()
-    {
+
+    public void act() {
+    }
+
+    public int getType() {
+        return this.type;
     }
 }
